@@ -1,0 +1,19 @@
+{
+  "name": "bilua",
+  "version": "1.0.0",
+  "description": "Portfolio of Debabrata Panigrahi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amiya12345/Deba-Portfolio.git"
+  },
+  "author": "Amiya Ranjan Sethi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amiya12345/Deba-Portfolio/issues"
+  },
+  "homepage": "https://github.com/amiya12345/Deba-Portfolio#readme"
+}
