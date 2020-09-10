@@ -1,5 +1,5 @@
 var canvas;
-const palette = ["#3B3247", "#006D8E", "#EEDCC4", "#B53021", "#421717"]
+const palette = ["#121212", "#fcfcfc", "#121212", "#fcfcfc", "#121212"]
 let lines = [];
 let linesNum = 60;
 
@@ -10,7 +10,7 @@ const GEN = 30;
 let stColor;
 
 function windowResized(){
-	canvasResized(windowWidth,windowHeight);
+	resizeCanvas(windowWidth,windowHeight);
 }
 function setup()
 {
@@ -42,8 +42,8 @@ function draw() {
 
 	fill(235);
 	stroke(stColor);
-	strokeWeight(10);
-	circle(width / 2, height / 2, MAX * 0.2);
+	strokeWeight(5);
+	circle(width / 2, height / 2, MAX * 0.1);
 }
 
 class MyLine {
